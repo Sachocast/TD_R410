@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#graphic-clock{
+    display: flex;
+}
+
+#graphic-clock p{
+    margin-right: 0.25%;
+}
+
+.white {
+    background-color: rgb(255,255,255);
+    }
+.green {
+    background-color: rgb(150,255,150);
+    }
+.red {
+    background-color: rgb(255,150,150);
+    }
+#menu{
+    display: block;
+    padding-right: 90%;
+}
+
+#ig,#r,#e,#p {
+
+    background-color: rgb(153, 153, 255);
+    color: white;
+}
+
+#iginfocache,#rinfocache,#einfocache,#pinfocache{
+    display: none;
+}
+
+#iginfo,#rinfo,#einfo,#pinfo {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
